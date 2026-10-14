@@ -1,3 +1,7 @@
 # Dia 1
-hoje aprendi: git add prepara, git commit salva, git push envia
-Também aprendi: echo e git status
+
+- git add prepara
+- git commit salva
+- git push envia
+- echo escreve texto, `>` sobrescreve e `>>` acrescenta
+- git status mostra a situação do repositório
