@@ -20,7 +20,12 @@ git commit -m cria o commit com a mensagem na própria linha.
 git commit abre um editor de texto para você escrever a mensagem.
 git commit --amend -am "é para corrigir um titulo errado" pula o git add e só funciona se o git já rastreia o arquivo. serve para correção apenas.
 Mensagem com titúlo e descrição = git commit -m "feat: adiciona rota de login" -m "Valida e-mail e senha e retorna um token."
+//
 
-- git push envia
+- git push e suas utilidades:
+// o git push envia os commits do seu repositório local para o repositório remoto do github. até o push, seus commits existem somente no meu computador. ele envia apenas commits.
+git push origin main
+origin é o apelido do repositório remoto.
+main é o branch que você está enviando.
 - echo escreve texto, `>` sobrescreve e `>>` acrescenta
 - git status mostra a situação do repositório
