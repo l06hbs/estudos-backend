@@ -1,6 +1,6 @@
 # Dia 2
 
-echo e suas utilidades:
+-echo e suas utilidades:
 // O echo serve para mostrar um texto, criar e alterar arquivos. 
 Estrutura e exemplos de echo:
 echo "ola mundo" > teste
@@ -9,7 +9,7 @@ echo "meu nome é luis" >> teste
 esse echo escreve " meu nome é luis" na segundo linha do arquivo teste.
 //
 
-.gitignore e suas utilidades:
+-.gitignore e suas utilidades:
 // o .gitignore é um arquivo que serve para não permitir o rastreamento de pastas, arquivos, textos, entre outros do repositorio do git hub.
 estrutura e exemplos de .gitignore:
 echo "node_modules/" > .gitignore
@@ -20,14 +20,13 @@ echo ".env" >> .gitignore
 cria o arquivo .env e escreve ele no final do .gitignore. 
 //
 
-git diff e suas utilidades:
+-git diff e suas utilidades:
 // o git diff serve para mostrar exatamente o que mudou nos arquivos, linha por linha. 
 como ler a saída:
 diff --git a/dia-01.md b/dia-01.md
 --- a/dia-01.md
 +++ b/dia-01.md
 @@ -1,3 +1,3 @@
- # Dia 1
 -git add prepara
 +git add coloca o arquivo na staging area
  git commit salva
