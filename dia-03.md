@@ -5,3 +5,4 @@
 - git rebase serve para manter o histórico de commits em linha reta.
 não fazer rebase de um arquivo que já esteja no github.
 - git switch -c(create), git branch -d(delete).
+- O fast-forward acontece quando a main não andou desde que o branch saiu dela. A ponta do seu branch é descendente direta da ponta da main, então o Git não precisa combinar nada: só move o ponteiro da main para frente até o último commit do branch.
