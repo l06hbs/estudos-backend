@@ -27,5 +27,10 @@ Mensagem com titúlo e descrição = git commit -m "feat: adiciona rota de login
 git push origin main
 origin é o apelido do repositório remoto.
 main é o branch que você está enviando.
+//
+
 - echo escreve texto, `>` sobrescreve e `>>` acrescenta
-- git status mostra a situação do repositório
+//
+
+- git status e suas utilidades:
+// O git status mostra a situação atual do seu repositório: em qual branch você está, quais arquivos mudaram, o que está pronto para o commit e o que o Git ainda não conhece. Ele não altera nada, então pode ser usado à vontade. É o comando que mais se roda no dia a dia, antes de cada add, commit e push.
