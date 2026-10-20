@@ -34,3 +34,6 @@ Não usar git push --force para resolver, porque ele sobreescreve o que está no
 5. Revisar em files changed e fazer o merge.
 6. Git switch main e git pull
 obs: o -u no git push serve para ligar o branch local ao remoto, e só é necessário na primeira vez.
+
+## resposta para entrevista
+O -u no git push -u origin nome-do-branch define o upstream: liga o branch local ao branch remoto, para que os próximos git push e git pull funcionem sem informar o remoto e o branch. Só é necessário no primeiro envio de um branch novo. A revisão antes do merge é feita no Pull Request.
