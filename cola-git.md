@@ -100,6 +100,9 @@ pwd
 ls -a                            
 # lista arquivos (inclusive ocultos)
 
+cd ..
+# volta uma pasta
+
 cd pasta                        
 # entra na pasta
 
@@ -114,6 +117,9 @@ echo "texto" >> arquivo.md
 
 mkdir pasta                      
 # cria pasta
+
+touch arquivo 
+# cria arquivo
 
 rm arquivo                       
 # apaga (sem lixeira!)
