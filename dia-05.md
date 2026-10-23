@@ -71,3 +71,29 @@ resultado: volta 1,2 e 3.
 - No navegador existem document e window, para mexer na página. No Node não existem, porque não há página. Prove:
 - console.log(typeof window);
 - Aparece undefined. O que o Node tem em compensação, e você vai usar nas próximas semanas, é a capacidade de ler arquivos, criar servidores e receber requisições. É isso que vai tornar o JavaScript uma ferramenta de back-end.
+
+## Node.Js
+
+- O Node.Js é um ambiente que roda JavaScript fora do navegador, no computador ou no servidor.
+- Rodar um arquivo: node arquivo.js.
+
+## Fundamentos JavaScript
+
+- Const não pode receber outro valor; let pode. Comelo com const e só uso let quando o valor muda.
+- comparar com === (valor e tipo), nunca com ==.
+- if/ else if/ else teste de cima para baixo e para na primeira condição verdadeira, então a ordem importa.
+- for tem três partes início, condição e passo.
+- Acumulador: uma variável criada antes do laço, que vai guardando o total (total = total + i).
+- % devolve o resto da divisão.
+
+## Erros que cometi
+
+- (nota >= 5 <=6) não significa "entre 5 e 6"; cada comparação precisa ser completa, ligadas por &&.
+- Valores ficos dentro do texto, o que muda vem de variável.
+
+## Backend na prática
+
+- (process.argv[]) guarda os argumentos do comando; o primeiro meu é o [2].
+- Tudo que chega na linha de comando é texto. Converte com (Number()).
+- Validar entrada: se faltar dado, aviso como usar e paro com (process.exit(1)).
+- Módulos: (module.exports) oferece algo para fora, e (require(./arquivo)) importa em outro arquivo
